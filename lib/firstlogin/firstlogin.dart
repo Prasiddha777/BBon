@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'phone.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 void main() => runApp(MaterialApp(
@@ -67,11 +68,11 @@ class Firstlogin extends StatelessWidget {
                           padding: const EdgeInsets.all(11.0),
                           child: RaisedButton(
                             onPressed: () {
-                              // Navigator.push(
-                              //   context,
-                              //   MaterialPageRoute(
-                              //       builder: (context) => Phone()),
-                              // );
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => Phone()),
+                              );
                             },
                             color: Colors.white,
                             splashColor: Colors.green[300],
